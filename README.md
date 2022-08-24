@@ -1,8 +1,8 @@
 ## Where to find me
-Instagram - https://www.instagram.com/wiktorszymczykcoding/
-LinkedIn - https://www.linkedin.com/in/wiktor-szymczyk-564a18249/
-Work Email - wiktor.szymczyk202@gmail.com
-Personal Email - wiktor.szymczyk202@outlook.com
+1. Instagram - https://www.instagram.com/wiktorszymczykcoding/
+2. LinkedIn - https://www.linkedin.com/in/wiktor-szymczyk-564a18249/
+3. Work Email - wiktor.szymczyk202@gmail.com
+4. Personal Email - wiktor.szymczyk202@outlook.com
 
 # Whisky Shop
 This is an entire project that I have been working on over the course of last week. I have used HTML, CSS and JS.
