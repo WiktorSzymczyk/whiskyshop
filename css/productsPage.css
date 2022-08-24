@@ -1,0 +1,145 @@
+*{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, "Lato";
+  z-index: 1;
+}
+
+body {
+  background-color: #222222;
+}
+
+@keyframes logoAnimation {
+  0% {transform: rotate(0deg)}
+  0% {transform: scale(1)}
+  33.33% {transform: scale(1.5)}
+  66.66% {transform: scale(1)}
+  66.66% {transform: rotate(180deg)}
+  90% {transform: scale(1.8)}
+  100% {transform: rotate(360deg)}
+}
+
+.logo {
+  animation: logoAnimation 5s;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #222222;
+  opacity: 80%;
+  padding-left: 10%;
+  padding-right: 5%;
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation: fadeInTo80 3s;
+}
+
+button {
+  opacity: 100%;
+  color: wheat;
+  padding: 10px 25px;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid aliceblue;
+}
+
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  padding-right: 1rem;
+  text-decoration: none;
+}
+
+ul li a {
+  font-size: 1.3rem;
+  color: wheat;
+  text-decoration: none;
+}
+
+@keyframes dropDown {
+  0% {transform: translateY(-1000%)}
+  60% {transform: translateY(5%)}
+  80% {transform: translateY(-35%)}
+  100% {transform: translateY(0%)}
+}
+
+
+
+.home {
+  animation: dropDown 3s;
+}
+
+.products {
+  animation: dropDown 4s;
+}
+
+.posts {
+  animation: dropDown 5s;
+}
+
+.about {
+  animation: dropDown 6s;
+}
+
+.contact {
+  animation: dropDown 7s;
+}
+
+.all-products-text {
+  margin-top: 3%;
+  text-align: center;
+  color: wheat;
+}
+
+.all-products-text h1 {
+  font-size: 2rem;
+}
+
+@keyframes slideInForNavLine {
+  0% {width: 0}
+  30% {width: 0}
+  30% {transform: translateX(-100)}
+  100% {width: 100vw}
+  100% {transform: translateX(0)}
+}
+
+
+hr {
+  border: 1px solid wheat;
+  animation: slideInForNavLine 4s;
+}
+
+.column {
+  margin-top: 5vh;
+  text-align: center;
+  float: left;
+  width: 10%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  width: 30%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.search-text-sidebar {
+  color: wheat;
+  font-size: 1.2rem;
+}
