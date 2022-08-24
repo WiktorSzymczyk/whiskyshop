@@ -5,3 +5,8 @@ This is an entire project that I have been working on over the course of last we
 
 ## Link
 [CodeTime] (https://www.codetime.io)
+
+What to do next?
+1.  Make sure that all elements are responsive
+2.  Sketch and Create 404 Page
+3.  Create pages such as: All Products, Single Product, Payment Option, Posts Page, About Page and Contact Page
