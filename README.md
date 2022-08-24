@@ -1,10 +1,10 @@
+## Where to find me
+Instagram (https://www.instagram.com/wiktorszymczykcoding/)
+
 # Whisky Shop
 This is an entire project that I have been working on over the course of last week. I have used HTML, CSS and JS.
 
 * This is an example of that
-
-## Link
-[CodeTime] (https://www.codetime.io)
 
 What to do next?
 1.  Make sure that all elements are responsive
